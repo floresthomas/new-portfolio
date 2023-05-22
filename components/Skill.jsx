@@ -52,7 +52,7 @@ export default function Skill() {
     <div className="mt-5 flex justify-center items-center gap-4">
       {techs.map(({ id, src }) => (
         <div key={id}>
-          <Image src={src} width={80} height={80} />
+          <Image src={src} width={80} height={80} alt="tech"/>
         </div>
       ))}
     </div>

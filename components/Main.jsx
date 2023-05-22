@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 export default function Main() {
   return (
     <div className="flex flex-col justify-center items-center ml-3">
-      <h1 class="mt-10 text-4xl font-extrabold sm:max-w-[70%]">
+      <h1 className="mt-10 text-4xl font-extrabold sm:max-w-[70%]">
         Thomas Ezequiel Flores
       </h1>
       <p className="mt-4 font-bold m-auto">
@@ -17,7 +17,7 @@ export default function Main() {
         ofrecerte mis conocimientos para construir tu idea a través de la
         programación{" "}
       </p>
-      <Image src={avatar} height={350} width={350} />
+      <Image src={avatar} height={350} width={350} alt="avatar" />
       <div className="flex flex-row justify-center items-center mt-4">
         <a
           href="https://www.linkedin.com/in/floresthomas/"
