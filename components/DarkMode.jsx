@@ -15,7 +15,7 @@ const DarkMode = () => {
     return null;
   }
 
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const currentTheme = theme === "system" ?  "" : theme;
   return (
     <>
       {currentTheme === "dark" ? (
