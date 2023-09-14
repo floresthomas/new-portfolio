@@ -2,6 +2,7 @@ import ecommerce from "../public/assets/ecommerce.png";
 import videogames from "../public/assets/videogames.png";
 import kalu from "../public/assets/kalu.png";
 import pokemon from "../public/assets/pokemon.png";
+import backendapp from "../public/assets/backendapp.png"
 import Image from "next/image";
 
 export default function Projects() {
@@ -103,6 +104,26 @@ export default function Projects() {
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                 <a
                   href="https://github.com/floresthomas/ecommerce-client"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="bg-gray-600 shadow-md shadow-gray-600 rounded-lg">
+            <Image
+              className="duration-200 hover:scale-105"
+              src={backendapp}
+              alt="/"
+              width={500}
+              height={100}
+            />
+            <div className="flex items-center justify-center">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href="https://github.com/floresthomas/auth-video-app"
                   target="_blank"
                   rel="noreferrer"
                 >
