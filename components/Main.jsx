@@ -35,7 +35,7 @@ export default function Main() {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1iefbCa7Ub9SsN8NHGXDU7aCK1uH_R9gD/view?usp=drive_link"
+          href="https://drive.google.com/file/d/17W2k9KZK92s2PBLAEMZUaVbbGdA6KkIs/view?usp=drive_link"
           target="_blank"
           rel="noreferrer noopener"
         >
