@@ -5,9 +5,12 @@ import mongodb from "../public/assets/mongo.png";
 import node from "../public/assets/node.png";
 import postgres from "../public/assets/postgresql-logo.jpg";
 import git from "../public/assets/git.png";
-import redux from "../public/assets/redux.png";
 import html from "../public/assets/html.png";
 import css from "../public/assets/css.png";
+import java from "../public/assets/java.png";
+import springboot from "../public/assets/springboot.png";
+import hibernate from "../public/assets/hibernate.png";
+import nextjs from "../public/assets/nextjs.png"
 
 export default function Skill() {
   const techs = [
@@ -21,23 +24,23 @@ export default function Skill() {
     },
     {
       id: 3,
-      src: mongodb,
+      src: nextjs,
     },
     {
       id: 4,
-      src: node,
+      src: mongodb,
     },
     {
       id: 5,
-      src: postgres,
+      src: node,
     },
     {
       id: 6,
-      src: git,
+      src: postgres,
     },
     {
       id: 7,
-      src: redux,
+      src: git,
     },
     {
       id: 8,
@@ -47,12 +50,25 @@ export default function Skill() {
       id: 9,
       src: css,
     },
+    {
+      id: 10,
+      src: java,
+    },
+    {
+      id: 11,
+      src: springboot,
+    },
+    {
+      id: 12,
+      src: hibernate,
+    },
   ];
+
   return (
     <div className="mt-5 flex justify-center items-center gap-4">
       {techs.map(({ id, src }) => (
         <div key={id}>
-          <Image src={src} width={80} height={80} alt="tech"/>
+          <Image src={src} width={80} height={80} alt="tech" />
         </div>
       ))}
     </div>
